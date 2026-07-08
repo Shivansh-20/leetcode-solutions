@@ -1,2 +1,2 @@
 # leetcode-solutions
-Me trying to solve leetcode
+understanding the thinking required to manipulate data structures by Leetcode problems
