@@ -1,22 +1,15 @@
 class Solution:
-    def isPalindrome(self, s):
-        left  = 0
+    def isPalindrome(self, s: str) -> bool:
+        left = 0
         right = len(s) - 1
         while left < right:
-            while left < right and not s[left].isalnum():
+            while left < right and not s[left].isalnum(): #we are skipping here , use not
                 left += 1
             while left < right and not s[right].isalnum():
                 right -= 1
-            if s[left].lower() != s[right].lower():
+            if s[left].lower() != s[right].lower(): #when we are not skipping, means it is alnum
                 return False
-            left +=1
+            left += 1
             right -= 1
         return True
-
-
-
-
-    
-        
-
         
