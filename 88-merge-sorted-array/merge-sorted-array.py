@@ -7,7 +7,7 @@ class Solution:
         if p1 >= 0 and nums1[p1] > nums2[p2]:
             nums1[p3] = nums1[p1]
             p1 -= 1
-        else: #nums2[p2] >= nums1[p1]:
+        else: #nums2[p2] >= nums1[p1]: #if p1 finished but p2 still left (before and)
             nums1[p3] = nums2[p2]
             p2 -= 1
         p3 -= 1
