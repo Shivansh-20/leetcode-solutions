@@ -15,7 +15,7 @@ class Solution:
                 elif i == "*":
                     result = a*b
                 elif i == "/":
-                    result = result = abs(b) // abs(a) * (1 if b * a >= 0 else -1) #int(b / a)
+                    result =  abs(b) // abs(a) * (1 if b * a >= 0 else -1) #int(b / a)
                 store.append(result)
         return store[0]
             
