@@ -8,8 +8,8 @@
 Array, Binary Search, Divide and Conquer
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 1 ms
+- **Memory:** 19.4 MB
 
 ---
 
@@ -19,7 +19,7 @@ Given two sorted arrays  `nums1`  and  `nums2`  of size  `m`  and  `n`  respecti
 
 The overall run time complexity should be  `O(log (m+n))` .
 
-OriginalPython3 **Example 1:**
+**Example 1:**
 
 ```
 Input: nums1 = [1,3], nums2 = [2]
