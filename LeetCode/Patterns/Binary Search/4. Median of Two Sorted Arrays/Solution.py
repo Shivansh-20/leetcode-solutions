@@ -2,7 +2,7 @@ class Solution:
     def findMedianSortedArrays(self, nums1: list[int], nums2: list[int]) -> float:
 
         all_nums = nums1 + nums2# + [2,4,1,2,1,1]
-        #all_nums.sort()
+        all_nums.sort()
         lent = len(all_nums)
         #return lent//2, lent%2, lent, (lent-1)/2
         if lent%2 == 1:
