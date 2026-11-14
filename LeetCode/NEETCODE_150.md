@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 5 / 150 (3.3%)
+- **Completed:** 6 / 150 (4.0%)
 
 ---
 
@@ -58,7 +58,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [x] [Merge Two Sorted Lists](./Python/Easy/21. Merge Two Sorted Lists/)
 - [ ] Reorder List
 - [x] [Remove Nth Node From End of List](./Python/Medium/19. Remove Nth Node From End of List/)
-- [ ] Copy List with Random Pointer
+- [x] [Copy List with Random Pointer](./Python/Medium/138. Copy List with Random Pointer/)
 - [x] [Add Two Numbers](./Python/Medium/2. Add Two Numbers/)
 - [ ] Linked List Cycle
 - [ ] Find the Duplicate Number
