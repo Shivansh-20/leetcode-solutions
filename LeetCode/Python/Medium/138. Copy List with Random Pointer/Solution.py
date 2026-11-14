@@ -9,16 +9,15 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        
-        
-        import copy 
-        return copy.deepcopy(head)
+        from copy import deepcopy
+        return deepcopy(head)
         current = head
         d = {}
         while current:
             copy_current = Node(current.val)
             d[current] = copy_current
             current = current.next
+        
         
 
             
