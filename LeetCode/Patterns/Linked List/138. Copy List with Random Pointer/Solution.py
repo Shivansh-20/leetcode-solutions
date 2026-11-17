@@ -9,19 +9,21 @@ class Node:
 
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
-        from copy import deepcopy
-        return deepcopy(head)
-        print(head)
-        return copy_list(head)
+        current = head
+        d = {}
+        while current:
+            copy = Node(current.val)
+            d[current] = copy
+            current = current.next
+        current = head
+        while current:
+            copied = d[current]
+            copied.next = d[current.next] if current.next else None
+            copied.random = d[current.random] if current.random else None
+            #dict has pairs of copy and orignal(key), we want to have info from orignal we can use d[current] 
+            current = current.next
+        return d[head]
         
-        
-def copy_list(list_ref:list):
-    new_list = []
-    for x in new_list:
-        if isinstance(x, list):
-            x = copy_list(x)
-        new_list.append(x)
-    return new_list
             
-
+            
         
