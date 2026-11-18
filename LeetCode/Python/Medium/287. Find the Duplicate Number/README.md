@@ -21,7 +21,7 @@ There is only  **one repeated number**  in  `nums` , return  *this repeated nu
 
 You must solve the problem  **without**  modifying the array  `nums`  and using only constant extra space.
 
-OriginalPython3 **Example 1:**
+**Example 1:**
 
 ```
 Input: nums = [1,3,4,2,2]
