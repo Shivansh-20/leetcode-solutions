@@ -1,16 +1,9 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        memo = {}
-
-        def dfs(i):
-
-            if i >= n: return 1 if i == n else 0
-
-            if i not in memo:
-
-                memo[i] = dfs(i + 1) + dfs(i + 2)
-
-            return memo[i]
-
-        return dfs(0)
-        
+        dict = {0: 1, 1: 1}
+        def helper(i):
+            if i in dict:
+                return dict[i]
+            dict[i] = helper(i - 2) + helper(i - 1) #() because we are calling func not accesing by []
+            return dict[i]
+        return helper(n)
