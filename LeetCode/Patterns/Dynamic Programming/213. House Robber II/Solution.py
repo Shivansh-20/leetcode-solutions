@@ -6,6 +6,7 @@ class Solution:
 
         if n == 1:
             return nums[0]
+        if
 
         def helper(start, end):
             dp = [0] * n
