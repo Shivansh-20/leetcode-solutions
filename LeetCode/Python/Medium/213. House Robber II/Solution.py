@@ -6,7 +6,8 @@ class Solution:
 
         if n == 1:
             return nums[0]
-        if
+        if n == 2:
+            return max(nums[0], nums[1])
 
         def helper(start, end):
             dp = [0] * n
